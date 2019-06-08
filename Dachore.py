@@ -1,5 +1,8 @@
 import requests
 
+
+if __name__ =='__main__':
+
 print (" Test (Scan) Dachore ")
 imageName = input ('plz imageName = ')
 url = 'http://13.209.35.206:8000/DachoreApp/'+imageName
