@@ -7,3 +7,5 @@ if __name__ =="__main__":
   url = 'http://13.209.35.206:8000/DachoreApp/'+imageName
   res = requests.get(url)
   print (res.text)
+  
+  main()
